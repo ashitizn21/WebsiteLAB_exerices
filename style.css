@@ -1,0 +1,148 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+  /* background: linear-gradient(gray low, black high); */
+}
+
+header,
+section,
+article,
+nav,
+footer {
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 8px;
+}
+
+nav ul {
+  margin: 10px;
+  padding: 10px;
+  /* background: ; */
+}
+
+nav ul li {
+  margin: 5px;
+  padding: 5px;
+}
+
+header,
+footer {
+  color: white;
+  background-color: #444;
+  margin-bottom: 5px;
+}
+
+section {
+  background-color: #ddd;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline;
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:link,
+a:visited {
+  /* background-color: #4AA96C; */
+  /* color: black; */
+  text-align: center;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.paragraph1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  /* flex-wrap: wrap; */
+  /* padding: ; */
+  background: #716f81;
+  font-size: 16px;
+}
+
+.paragraph1 p:hover {
+  color: #edf6e5;
+}
+
+.paragraph1 p {
+  margin: 5px;
+}
+
+.paragraph2 {
+  background: #f2e1c1;
+}
+
+.paragraph2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 10px;
+}
+
+.paragraph2 p {
+  visibility: hidden;
+}
+
+.paragraph2:hover p {
+  cursor: pointer;
+  visibility: visible;
+}
+
+.paragraph2 img:hover {
+  display: none;
+}
+
+table {
+  margin-left: 40px;
+  margin-top: 30px;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+table th {
+  background: green;
+}
+
+table .even {
+  background: greenyellow;
+}
+
+table .odd {
+  background: lightgray;
+}
+
+tr:hover {
+  background: lightblue;
+  color: crimson;
+}
+
+article > p {
+  background: darkblue;
+}
+
+article ~ p {
+  background: deeppink;
+}
+
+td:nth-child(1) {
+  border-right: 1px solid white;
+}
+
+td:nth-child(2) {
+  border-right: 1px solid white;
+}
+
+td:nth-child(0) {
+  border-right: 1px solid white;
+}
+/*# sourceMappingURL=style.css.map */
