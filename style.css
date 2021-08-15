@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+body{
+    font-family: "ubuntu", sans-serif;
+    background: #444;
+}
+
+.fo-tbl {
+    padding: 3px;
+}
+
+input{
+    margin: 3px;
+}
+
+.signClass{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid crimson;
+    background: beige;
+    padding:20px;
+    width: 70%;
+    margin: auto;
+    height: 60%;
+    
+}
+
+.home {
+    background: cornsilk;
+    min-height: 100vh;
+}
+
+.home p {
+    font-size: 27px;
+    margin: 12px;
+}
